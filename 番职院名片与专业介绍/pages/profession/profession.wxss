@@ -1,0 +1,122 @@
+.container-porfession {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+.flex-wrap{
+	display: flex;
+}
+.flex-item{
+	flex: 1;
+}
+.flex-wrap.flex-direction-col{
+	flex-direction: column;
+}
+.flex-wrap.flex-direction-row{
+	flex-direction: row;
+}
+
+
+.aside{
+	width:5.5rem;
+	border-right: 1px solid #ddd;
+	font-size: .75rem;
+}
+.type-nav{
+	position: relative;
+	padding:.7rem .3rem;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	z-index: 10;
+}        /* 左侧栏样式 */
+.type-nav.selected{
+	margin-right: -1px;
+	padding-left:-1px;
+	color: #333;
+	background-color: #fff;
+ }      /* 被选中的样式 */
+.content{
+	background-color: #fff;
+}
+.dish{
+	margin-left: 1rem;
+	padding: 1rem;
+	border-bottom: 1px solid #ddd;
+}
+.dish .title{
+	display: block;
+	font-size: 1rem;
+}
+.dish .jieshao{
+  display: block;
+  font-size: 0.8rem;
+  color:dimgrey;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  display:-webkit-box; 
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:1; 
+}
+.dish .jieshao1{
+  display: block;
+  font-size: 0.8rem;
+  color:dimgrey;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  display:-webkit-box; 
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:1; 
+}
+.dish .jieshao2{
+  display: block;
+  font-size: 0.8rem;
+  color:dimgrey;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  display:-webkit-box; 
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:1;
+}
+.dish .jieshao3{
+  display: block;
+  font-size: 0.8rem;
+  color:dimgrey;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  display:-webkit-box; 
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:1;
+}
+.dish .jieshaoxx{
+  display: block;
+  font-size: 0.8rem;
+  color:dimgrey;
+}
+.dish .common{
+  font-size: 0.6rem;
+  color:darkgrey;
+}
+.dish .duixiang{
+  display: block;
+  font-size: 0.7rem;
+  color:orange;
+}
+.dish .duixiang1{
+  display: block;
+  font-size: 0.7rem;
+  color:orange;
+}
+.dish .common1{
+  display: block;
+  font-size: 0.6rem;
+  color:darkgrey;
+}
+.dish .year{
+  color:darkgrey;
+  font-size: 0.6rem;
+}
+.dish p{
+	color: orange;
+	font-size: 0.6rem;
+}

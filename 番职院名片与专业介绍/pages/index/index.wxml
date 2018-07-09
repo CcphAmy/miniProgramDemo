@@ -1,0 +1,70 @@
+<!--index.wxml-->
+
+<view class="cont">
+
+  <view class="cont_top">
+    <view class="textArea">
+      <text class="textAreaSschoolName">{{schoolName}}</text>
+      <text class="textAreaschoolLab">{{schoolLab}}</text>
+    </view> 
+    
+    <view class="iconArea">
+      <image bindtap="bindViewTap" class="iconAreaImage" src="/images/1.jpg" background-size="cover"></image>
+    </view>
+  </view>
+  
+  <text class='fgf'></text>
+
+  <navigator class="navigator" bindtap='openLocation'>
+    <view><image class="navigator-icon" src="/images/location.png" background-size="cover"></image></view>
+    <view class="navigator-text">广东省广州市沙湾镇市良路1342号广州番禺职业技术学院</view>
+    <view class="navigator-arrow"></view>
+  </navigator>
+
+  <navigator class="navigator" >
+    <view><image class="navigator-icon" src="/images/time.png" background-size="cover"></image></view>
+    <view class="navigator-text">上午 8.30-11.30,下午 2.30-5.00</view>
+  </navigator>
+
+  <navigator class="navigator" bindtap="makePhoneCall">
+    <view><image class="navigator-icon" src="/images/phone.png" background-size="cover"></image></view>
+    <view class="navigator-text">020-34874086、020-84731206</view>
+  </navigator>
+
+
+
+  <view>
+    <navigator class="navigator" url="../profession/profession">
+      <view><image class="navigator-icon" src="/images/location.png" background-size="cover"></image></view>
+      <view class="navigator-text">番职校园 <text decode="{{true}}" style='color:red;'>&nbsp;&nbsp;点击查看最新招生专业咨询！</text></view>
+      <!--    报考番职，你最好的选择！-->
+    </navigator>
+  </view>
+
+  <view class="wrap">
+
+    <image style="width: {{imagewidth}}px; height: {{imageheight}}px;float:left;padding-right:3px;"  wx:for="{{pictures}}" wx:key="unique" src="{{item}}" data-index="{{index}}" bindtap="previewImage" mode="aspectFill"></image>
+  </view>
+<text class='fgf'></text>
+
+  
+
+    <navigator class="navigator">
+      <view>
+        <image class="navigator-icon" src="/images/video.png" background-size="cover"></image>
+      </view>
+      <view class="navigator-text">韵动番职(学生作品)</view>
+    </navigator>
+
+
+
+    <view class="videoCon">
+      <video id="myVideo" src="http://121.33.253.219/zs/images/yundong.avi" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    </view>
+
+ <image style="width: 0px; height:0px;"  src="{{imagefirstsrc}}"   bindload="imageLoad"></image>  
+
+  <button open-type='share' type='primary' size='default' class='shareButton'>分享番职名片</button>
+
+
+</view>

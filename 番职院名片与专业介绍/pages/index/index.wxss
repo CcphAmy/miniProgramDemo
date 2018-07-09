@@ -1,0 +1,140 @@
+/**index.wxss**/
+
+.cont {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+.wrap{
+  margin-left: 10px;
+}
+.img{
+  padding-left: 5px;
+  padding-top: 5px;
+  width:100px;
+  height: 100px;
+  float: left;
+}
+.cont_top{
+  padding-top: 20px;
+}
+.textArea{
+  margin-left: 25px;
+  float: left;
+  width: 60%;
+}
+
+.iconArea{
+  float: right;
+  padding-right: 20px;
+  margin-top: -10px;
+}
+.navigator-icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 10rpx;
+}
+
+.iconAreaImage {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.fgf{
+  clear: both;
+  width: 80%;
+  text-align: center;
+}
+
+.navigator {
+  padding: 10rpx 30rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.navigator-text {
+  flex: 1;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  white-space: nowrap;
+}
+.navigator-arrow {
+  margin-left: 45rpx;
+  padding-right: 26rpx;
+  position: relative;
+}
+.navigator-arrow:after {
+  content: " ";
+  display: inline-block;
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #888888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 50%;
+  margin-top: -8rpx;
+  right: 28rpx;
+}
+
+
+
+view {display:block;}
+
+
+.textAreaSschoolName{
+  font-size: 18px;
+  
+}
+.textAreaschoolLab{
+  font-size: 13px;
+  color: #aaa;
+}
+
+.videoLab{
+  font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 10rpx;
+}
+
+.videoCon{
+  padding-left: 10px;
+  align-content: center;
+}
+
+#myVideo{
+  width: 96%;
+}
+
+.shareButton{
+  width:94%;
+}
+
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

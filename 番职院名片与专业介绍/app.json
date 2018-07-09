@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/profession/profession",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "番职招生",
+    "navigationBarTextStyle":"black"
+  }
+}
